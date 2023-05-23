@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(7, 92, 7);
+  color: antiquewhite;
+  font-family: sans-serif;
+}
+
+/* ACA COMIENZA HEADER */
+header {
+  background: rgb(219, 207, 207);
+  border-radius: 0 0 20px 20px;
+  padding: 1rem;
+}
+
+header .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header .nav-link {
+  transition: 200ms ease;
+}
+
+header .nav-link:hover {
+  background: #7066ca;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* COMIENZO DEL MAIN */
+main .contenedor-main {
+  background: rgb(221, 228, 228);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+  border-radius: 10px;
+  gap: 2rem;
+}
+
+.contenedor-main .textos-main {
+  background: #7066ca;
+  color: rgb(233, 225, 225);
+  padding: 4rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.textos-main .background-textos {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 4rem 0;
+  /* border-radius: 70%; */
+	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+.textos-main h2 {
+  margin-bottom: 1rem;
+}
+
+.contenedor-main .imagen-main {
+  padding: 1rem;
+}
+
+.contenedor-main .imagen-main img {
+  width: 100%;
+}
+.contenedor-main .iframe-main {
+  display: flex;
+  flex-direction: column;
+  background: #c4c1dd;
+  color: rgb(24, 22, 22);
+  padding: 0.5rem;
+  border-radius: 10px 10px 0 0;
+  height: 100vh;
+}
+
+.iframe-main h3 {
+  color: black;
+  margin-bottom: 1rem;
+  background: #9894bf;
+  border-radius: 5px;
+}
+
+.iframe-main iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* ACA EMPIEZA EL FOOTER */
+footer {
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(219, 207, 207);
+  margin: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+footer .titulo h2 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+footer .contenedor-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .contenedor-sociales ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-sociales li {
+  margin: 10px;
+  display: flex;
+  align-content: center;
+  height: 2rem;
+  width: 2rem;
+}
+
+/*ACA EMPIEZA PAGINA FUTBOL */
+main .carrusel {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.carrusel .carousel {
+  margin: 2rem;
+}
+
+.carousel .carousel-item img {
+  border-radius: 10px;
+}
+
+section .textos {
+  text-align: center;
+  padding: 0.8rem;
+}
+.textos h2 {
+  font-style: italic;
+}
+
+.textos p {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* ACA EMPIEZA CONTACTOS */
+.main-content-contactos {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	margin: 2rem 0;
+}
+.main-content-contactos .titulo-contactos {
+	text-align: center;
+	padding: 5rem;
+	background: #7066ca;
+	border-radius: 10px 10px 0px 0px;
+}
+
+/* ACA EMPIEZA PAGINA TENNIS*/
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+article .contenedor {
+  background: rgb(15, 17, 16);
+  text-align: center;
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 480px) {
+  .container-fluid .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  footer .titulo h2 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+}
