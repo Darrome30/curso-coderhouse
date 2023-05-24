@@ -8,11 +8,11 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+/*body {
   background: rgb(7, 92, 7);
   color: antiquewhite;
   font-family: sans-serif;
-}
+}*/
 
 /* ACA COMIENZA HEADER */
 header {
@@ -181,7 +181,7 @@ section .textos {
 
 /* ACA EMPIEZA PAGINA TENNIS*/
 
-main section {
+/*main section {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
@@ -192,7 +192,7 @@ main section {
 article .contenedor {
   background: rgb(15, 17, 16);
   text-align: center;
-}
+}*/
 
 @media (max-width: 1280px) {
 }
