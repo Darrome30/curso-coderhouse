@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*body {
+  background: rgb(7, 92, 7);
+  color: antiquewhite;
+  font-family: sans-serif;
+}*/
+
+/* ACA COMIENZA HEADER */
+header {
+  background: rgb(219, 207, 207);
+  border-radius: 0 0 20px 20px;
+  padding: 1rem;
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .nav-link {
+    transition: 200ms ease;
+
+    &:hover {
+      background: #7066ca;
+      color: #fff;
+      border-radius: 5px;
+    }
+  }
+}
+
+main {
+  .contenedor-main {
+    background: rgb(221, 228, 228);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    border-radius: 10px;
+    gap: 2rem;
+
+    .textos-main {
+      background: #7066ca;
+      color: rgb(233, 225, 225);
+      padding: 4rem;
+      border-radius: 10px 10px 0 0;
+
+      .background-textos {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 4rem 0;
+        clip-path: polygon(75% 0%,100%50%,75%100%,0%100%,25%50%,0%0%);
+      }
+
+      h2 {
+        margin-bottom:1rem;
+      }
+    }
+
+    .imagen-main {
+      padding:.5rem;
+
+      img {
+        width:80%;
+      }
+    }
+
+    .main-iframe-main {
+      display:flex;
+      flex-direction:column;
+      background:#c4c1dd;
+      color:#181616;
+      padding:.5rem;
+      margin: 0,2rem;
+      height: 10vh;
+      border-radius:10px;
+
+      h3 {
+        color:#000;
+        margin-bottom:1rem;
+        background:#9894bf;
+        border-radius:5px;
+      }
+
+      iframe {
+        width:80%;
+        margin: 0,2rem;
+        height: 10vh;
+        border-radius:10px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 800px) {
+}
+
+@media (max-width: 480px) {
+.container-fluid .navbar-brand {
+  font-size: 1.5rem;
+}
+
+footer .titulo h2 {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+}

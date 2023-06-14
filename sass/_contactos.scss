@@ -1,0 +1,13 @@
+.main-content-contactos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+  
+    .titulo-contactos {
+      text-align: center;
+      padding: 5rem;
+      background: #7066ca;
+      border-radius: 10px 10px 0px 0px;
+    }
+  }

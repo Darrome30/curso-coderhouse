@@ -13,30 +13,25 @@ html {
   color: antiquewhite;
   font-family: sans-serif;
 }*/
-
 /* ACA COMIENZA HEADER */
 header {
   background: rgb(219, 207, 207);
   border-radius: 0 0 20px 20px;
   padding: 1rem;
 }
-
 header .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 header .nav-link {
   transition: 200ms ease;
 }
-
 header .nav-link:hover {
   background: #7066ca;
   color: #fff;
   border-radius: 5px;
 }
 
-/* COMIENZO DEL MAIN */
 main .contenedor-main {
   background: rgb(221, 228, 228);
   text-align: center;
@@ -46,55 +41,94 @@ main .contenedor-main {
   border-radius: 10px;
   gap: 2rem;
 }
-
-.contenedor-main .textos-main {
+main .contenedor-main .textos-main {
   background: #7066ca;
   color: rgb(233, 225, 225);
   padding: 4rem;
   border-radius: 10px 10px 0 0;
 }
-
-.textos-main .background-textos {
+main .contenedor-main .textos-main .background-textos {
   background: rgba(0, 0, 0, 0.2);
   padding: 4rem 0;
-  /* border-radius: 70%; */
-	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
-.textos-main h2 {
+main .contenedor-main .textos-main h2 {
   margin-bottom: 1rem;
 }
-
-.contenedor-main .imagen-main {
-  padding: 1rem;
+main .contenedor-main .imagen-main {
+  padding: 0.5rem;
 }
-
-.contenedor-main .imagen-main img {
+main .contenedor-main .imagen-main img {
   width: 100%;
 }
-.contenedor-main .iframe-main {
+main .contenedor-main .iframe-main {
   display: flex;
   flex-direction: column;
   background: #c4c1dd;
-  color: rgb(24, 22, 22);
+  color: #181616;
   padding: 0.5rem;
-  border-radius: 10px 10px 0 0;
-  height: 100vh;
+  border-radius: 10px;
 }
-
-.iframe-main h3 {
-  color: black;
+main .contenedor-main .iframe-main h3 {
+  color: #000;
   margin-bottom: 1rem;
   background: #9894bf;
   border-radius: 5px;
 }
-
-.iframe-main iframe {
+main .contenedor-main .iframe-main iframe {
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
 
-/* ACA EMPIEZA EL FOOTER */
+@media (max-width: 480px) {
+  .container-fluid .navbar-brand {
+    font-size: 1.5rem;
+  }
+  footer .titulo h2 {
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+}
+.main__carrusel {
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__carrusel .carousel {
+  margin: 2rem;
+}
+.main__carrusel .carousel-item img {
+  border-radius: 10px;
+}
+.main section__textos {
+  text-align: center;
+  padding: 0.8rem;
+}
+.main section__textos h2 {
+  font-style: italic;
+}
+.main section__textos p {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.main-content-contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.main-content-contactos .titulo-contactos {
+  text-align: center;
+  padding: 5rem;
+  background: #7066ca;
+  border-radius: 10px 10px 0px 0px;
+}
+
 footer {
   padding: 0.8rem;
   display: flex;
@@ -104,7 +138,6 @@ footer {
   margin: 0;
   border-radius: 20px 20px 0 0;
 }
-
 footer .titulo h2 {
   display: flex;
   justify-content: center;
@@ -112,101 +145,97 @@ footer .titulo h2 {
   font-size: 1.5rem;
   border-radius: 5px;
 }
-
 footer .contenedor-sociales {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 footer .contenedor-sociales ul {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
 }
-
-.contenedor-sociales li {
+footer .contenedor-sociales ul li {
   margin: 10px;
   display: flex;
   align-content: center;
   height: 2rem;
   width: 2rem;
 }
-
-/*ACA EMPIEZA PAGINA FUTBOL */
-main .carrusel {
-  text-align: center;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.carrusel .carousel {
-  margin: 2rem;
-}
-
-.carousel .carousel-item img {
-  border-radius: 10px;
-}
-
-section .textos {
-  text-align: center;
-  padding: 0.8rem;
-}
-.textos h2 {
-  font-style: italic;
-}
-
-.textos p {
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
-}
-
-/* ACA EMPIEZA CONTACTOS */
-.main-content-contactos {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	margin: 2rem 0;
-}
-.main-content-contactos .titulo-contactos {
-	text-align: center;
-	padding: 5rem;
-	background: #7066ca;
-	border-radius: 10px 10px 0px 0px;
-}
-
-/* ACA EMPIEZA PAGINA TENNIS*/
-
-/*main section {
+ /*aca comienza tennis*/
+.article1 {
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
-  margin: 2rem auto;
-  gap: 1rem;
+  justify-content: center;
+  margin: 3rem;
+  padding: 3rem;
+
 }
 
-article .contenedor {
-  background: rgb(15, 17, 16);
+.card1 {
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 2rem;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.card1 img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card1 h2 {
+  font-size: 1.5em;
+}
+
+.card1 p {
+  font-size: 1em;
+}
+
+.card1 a {
+  display: flex;
+  background-color: #007bff;
+  color: #fff;
   text-align: center;
-}*/
-
-@media (max-width: 1280px) {
+  padding: 10px;
 }
+ /* aca comienza basquet*/
 
-@media (max-width: 800px) {
-}
 
-@media (max-width: 480px) {
-  .container-fluid .navbar-brand {
-    font-size: 1.5rem;
+  .aticle-basquet{
+    display: flex;
+   
+  }
+  .contenedor-txt-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 
-  footer .titulo h2 {
-    font-size: 1.3rem;
-    font-weight: bolder;
+  .txt-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem;
+    background: #7066ca;
+    border-radius: 10px;
   }
-}
+  
+  .img-basquet{
+    width: 50%;
+    justify-content: end;
+    border-radius: 2rem;
+    margin: 2rem;
+  }
+  .reverse{
+    flex-direction: row-reverse;
+  }
+
+/*# sourceMappingURL=estilos.css.map */
