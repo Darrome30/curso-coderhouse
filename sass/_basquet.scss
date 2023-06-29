@@ -1,31 +1,31 @@
 .aticle-basquet{
-    display: flex;
-   
-  }
-  .contenedor-txt-img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-  }
+  display: flex;
+ 
+}
+.contenedor-txt-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
 
-  .txt-img{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
-    margin: 1rem;
-    background: #7066ca;
-    border-radius: 10px;
-  }
-  
-  .img-basquet{
-    width: 50%;
-    justify-content: end;
-    border-radius: 2rem;
-    margin: 2rem;
-  }
-  .reverse{
-    flex-direction: row-reverse;
-  }
+.txt-img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 1rem;
+  background: #7066ca;
+  border-radius: 10px;
+}
+
+.img-basquet{
+  width: 50%;
+  justify-content: end;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+.reverse{
+  flex-direction: row-reverse;
+}
